@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azerbaijan Travel Guide - Your Personal Guide to Azerbaijan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg" alt="Azerbaijan Flag" class="flag-icon">
+                <span class="logo-text" data-en="Azerbaijan Guide" data-ru="Путеводитель по Азербайджану" data-sv="Azerbajdzjan Guide">Azerbaijan Guide</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-ru="Главная" data-sv="Hem">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-ru="О нас" data-sv="Om">About</a>
+                <a href="#guide" class="nav-link" data-en="Guide" data-ru="Гид" data-sv="Guide">Guide</a>
+                <a href="#attractions" class="nav-link" data-en="Attractions" data-ru="Достопримечательности" data-sv="Sevärdheter">Attractions</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ru="Контакты" data-sv="Kontakt">Contact</a>
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="sv">SV</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Welcome to Azerbaijan" data-ru="Добро пожаловать в Азербайджан" data-sv="Välkommen till Azerbajdzjan">Welcome to Azerbaijan</h1>
+            <p class="hero-subtitle" data-en="Discover the land of fire, rich culture, and warm hospitality" data-ru="Откройте для себя страну огня, богатую культуру и теплое гостеприимство" data-sv="Upptäck eldens land, rik kultur och varm gästfrihet">Discover the land of fire, rich culture, and warm hospitality</p>
+            <div class="hero-buttons">
+                <a href="#guide" class="btn btn-primary" data-en="Meet Your Guide" data-ru="Познакомьтесь с гидом" data-sv="Träffa din guide">Meet Your Guide</a>
+                <a href="#attractions" class="btn btn-secondary" data-en="Explore Attractions" data-ru="Исследуйте достопримечательности" data-sv="Utforska sevärdheter">Explore Attractions</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./image.png" alt="Baku, Azerbaijan">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Azerbaijan" data-ru="Об Азербайджане" data-sv="Om Azerbajdzjan">About Azerbaijan</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Azerbaijan, located at the crossroads of Europe and Asia, is a country of stunning contrasts. From the modern skyline of Baku to the ancient villages of the Caucasus Mountains, Azerbaijan offers visitors a unique blend of old and new." data-ru="Азербайджан, расположенный на перекрестке Европы и Азии, является страной поразительных контрастов. От современного силуэта Баку до древних деревень Кавказских гор, Азербайджан предлагает посетителям уникальное сочетание старого и нового." data-sv="Azerbajdzjan, beläget vid korsningen mellan Europa och Asien, är ett land av slående kontraster. Från Bakus moderna silhuett till de antika byarna i Kaukasusbergen erbjuder Azerbajdzjan besökare en unik blandning av gammalt och nytt.">Azerbaijan, located at the crossroads of Europe and Asia, is a country of stunning contrasts. From the modern skyline of Baku to the ancient villages of the Caucasus Mountains, Azerbaijan offers visitors a unique blend of old and new.</p>
+                    <p data-en="Known as the 'Land of Fire' due to its natural gas reserves and eternal flames, Azerbaijan is rich in history, culture, and natural beauty. The country boasts UNESCO World Heritage sites, delicious cuisine, and warm, hospitable people." data-ru="Известный как 'Страна огня' из-за своих запасов природного газа и вечных огней, Азербайджан богат историей, культурой и природной красотой. Страна может похвастаться объектами Всемирного наследия ЮНЕСКО, вкусной кухней и теплыми, гостеприимными людьми." data-sv="Känd som 'Eldens land' på grund av sina naturgasreserver och eviga lågor är Azerbajdzjan rikt på historia, kultur och naturlig skönhet. Landet har UNESCO-världsarv, läcker mat och varma, gästfria människor.">Known as the 'Land of Fire' due to its natural gas reserves and eternal flames, Azerbaijan is rich in history, culture, and natural beauty. The country boasts UNESCO World Heritage sites, delicious cuisine, and warm, hospitable people.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>9.4M</h3>
+                        <p data-en="Population" data-ru="Население" data-sv="Befolkning">Population</p>
+                    </div>
+                    <div class="stat">
+                        <h3>86,600</h3> 
+                        <p data-en="Square Kilometers" data-ru="Квадратных километров" data-sv="Kvadratkilometer">Square Kilometers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3</h3>
+                        <p data-en="UNESCO Sites" data-ru="Объектов ЮНЕСКО" data-sv="UNESCO-platser">UNESCO Sites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide Section -->
+    <section id="guide" class="guide">
+        <div class="container">
+            <h2 class="section-title" data-en="Your Personal Guide" data-ru="Ваш личный гид" data-sv="Din personliga guide">Your Personal Guide</h2>
+            <div class="guide-content">
+                <div class="guide-image">
+                    <img src="./beledci.jpg" alt="Professional Tour Guide">
+                </div>
+                <div class="guide-info">
+                    <h3 class="guide-name" data-en="Asadullayev Rauf" data-ru="Асадуллаев Рауф" data-sv="Asadullayev Rauf">Asadullayev Rauf</h3>
+                    <p class="guide-title" data-en="Certified Professional Tour Guide" data-ru="Сертифицированный профессиональный гид" data-sv="Certifierad professionell guide">Certified Professional Tour Guide</p>
+                    <div class="guide-description">
+                        <p data-en="With over 8 years of experience in tourism, Elshan is your perfect companion for exploring Azerbaijan. Fluent in English, Russian, and Swedish, he provides personalized tours that showcase the best of Azerbaijan's culture, history, and natural beauty." data-ru="Имея более 8 лет опыта в туризме, Эльшан является вашим идеальным спутником для изучения Азербайджана. Свободно владея английским, русским и шведским языками, он предоставляет индивидуальные туры, которые демонстрируют лучшее из культуры, истории и природной красоты Азербайджана." data-sv="Med över 8 års erfarenhet inom turism är Elshan din perfekta följeslagare för att utforska Azerbajdzjan. Flytande på engelska, ryska och svenska ger han personliga turer som visar det bästa av Azerbajdzjans kultur, historia och naturliga skönhet.">With over 8 years of experience in tourism, Elshan is your perfect companion for exploring Azerbaijan. Fluent in English, Russian, and Swedish, he provides personalized tours that showcase the best of Azerbaijan's culture, history, and natural beauty.</p>
+                    </div>
+                    <div class="guide-services">
+                        <h4 data-en="Services Offered:" data-ru="Предлагаемые услуги:" data-sv="Erbjudna tjänster:">Services Offered:</h4>
+                        <ul>
+                            <li data-en="Customized city tours" data-ru="Индивидуальные городские туры" data-sv="Anpassade stadsrundor">Customized city tours</li>
+                            <li data-en="Cultural heritage visits" data-ru="Посещения культурного наследия" data-sv="Kulturarvsbesök">Cultural heritage visits</li>
+                            <li data-en="Mountain and nature tours" data-ru="Горные и природные туры" data-sv="Bergs- och naturturer">Mountain and nature tours</li>
+                            <li data-en="Culinary experiences" data-ru="Кулинарные впечатления" data-sv="Kulinariska upplevelser">Culinary experiences</li>
+                            <li data-en="Airport transfers" data-ru="Трансферы из аэропорта" data-sv="Flygplatstransfer">Airport transfers</li>
+                        </ul>
+                    </div>
+                    <div class="guide-contact">
+                        <a href="https://wa.me/994556028383" class="btn btn-primary" target="_blank" rel="noopener" data-en="Book Your Tour" data-ru="Забронировать тур" data-sv="Boka din tur">Book Your Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours & Routes Section -->
+    <section id="tours" class="tours">
+        <div class="container">
+            <h2 class="section-title" data-en="Tours & Routes" data-ru="Туры и маршруты" data-sv="Turer & Rutter">Tours & Routes</h2>
+            <div class="tours-grid">
+                <!-- Baku City Tour -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Baku City Tour">
+                    </div>
+                    <div class="tour-content">
+                        <h3 data-en="Baku City Tour" data-ru="Тур по Баку" data-sv="Baku Stadstur">Baku City Tour</h3>
+                        <div class="tour-price" data-en="$60 per person" data-ru="$60 с человека" data-sv="$60 per person">$60 per person</div>
+                        <p class="tour-itinerary" data-en="Explore the vibrant capital: Old City, Flame Towers, Boulevard, and more." data-ru="Исследуйте яркую столицу: Старый город, Пламенные башни, бульвар и многое другое." data-sv="Utforska den livliga huvudstaden: Gamla stan, Flame Towers, Boulevard och mer.">Explore the vibrant capital: Old City, Flame Towers, Boulevard, and more.</p>
+                        <ul class="tour-options">
+                            <li data-en="Transportation" data-ru="Транспорт" data-sv="Transport">Transportation</li>
+                            <li data-en="Translator" data-ru="Переводчик" data-sv="Översättare">Translator</li>
+                            <li data-en="Hotel" data-ru="Отель" data-sv="Hotell">Hotel</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Quba–Qusar Nature Tours -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Quba–Qusar Nature Tours">
+                    </div>
+                    <div class="tour-content">
+                        <h3 data-en="Quba–Qusar Nature Tours" data-ru="Природные туры в Кубу–Гусар" data-sv="Quba–Qusar Naturturer">Quba–Qusar Nature Tours</h3>
+                        <div class="tour-price" data-en="$85 per person" data-ru="$85 с человека" data-sv="$85 per person">$85 per person</div>
+                        <p class="tour-itinerary" data-en="Discover waterfalls, forests, and mountain villages in the Caucasus." data-ru="Откройте для себя водопады, леса и горные деревни Кавказа." data-sv="Upptäck vattenfall, skogar och bergsbyar i Kaukasus.">Discover waterfalls, forests, and mountain villages in the Caucasus.</p>
+                        <ul class="tour-options">
+                            <li data-en="Transportation" data-ru="Транспорт" data-sv="Transport">Transportation</li>
+                            <li data-en="Translator" data-ru="Переводчик" data-sv="Översättare">Translator</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Gabala, Sheki, Lahij Historical Tours -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80" alt="Gabala, Sheki, Lahij Historical Tours">
+                    </div>
+                    <div class="tour-content">
+                        <h3 data-en="Gabala, Sheki, Lahij Historical Tours" data-ru="Исторические туры: Габала, Шеки, Лагич" data-sv="Gabala, Sheki, Lahij Historiska Turer">Gabala, Sheki, Lahij Historical Tours</h3>
+                        <div class="tour-price" data-en="$110 per person" data-ru="$110 с человека" data-sv="$110 per person">$110 per person</div>
+                        <p class="tour-itinerary" data-en="Journey through ancient cities, palaces, and artisan villages." data-ru="Путешествие по древним городам, дворцам и ремесленным деревням." data-sv="Res genom antika städer, palats och hantverksbyar.">Journey through ancient cities, palaces, and artisan villages.</p>
+                        <ul class="tour-options">
+                            <li data-en="Transportation" data-ru="Транспорт" data-sv="Transport">Transportation</li>
+                            <li data-en="Translator" data-ru="Переводчик" data-sv="Översättare">Translator</li>
+                            <li data-en="Hotel" data-ru="Отель" data-sv="Hotell">Hotel</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Culinary (Gastronomic) Tours -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Culinary (Gastronomic) Tours">
+                    </div>
+                    <div class="tour-content">
+                        <h3 data-en="Culinary (Gastronomic) Tours" data-ru="Кулинарные туры" data-sv="Kulinariska Turer">Culinary (Gastronomic) Tours</h3>
+                        <div class="tour-price" data-en="$70 per person" data-ru="$70 с человека" data-sv="$70 per person">$70 per person</div>
+                        <p class="tour-itinerary" data-en="Taste Azerbaijan: market visits, cooking classes, and food tastings." data-ru="Вкус Азербайджана: посещение рынков, кулинарные мастер-классы и дегустации." data-sv="Smaka på Azerbajdzjan: marknadsbesök, matlagningskurser och provsmakningar.">Taste Azerbaijan: market visits, cooking classes, and food tastings.</p>
+                        <ul class="tour-options">
+                            <li data-en="Transportation" data-ru="Транспорт" data-sv="Transport">Transportation</li>
+                            <li data-en="Translator" data-ru="Переводчик" data-sv="Översättare">Translator</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="attractions">
+        <div class="container">
+            <h2 class="section-title" data-en="Must-See Attractions" data-ru="Обязательные к посещению достопримечательности" data-sv="Måste-se sevärdheter">Must-See Attractions</h2>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Baku Old City">
+                    <div class="attraction-content">
+                        <h3 data-en="Baku Old City (Icherisheher)" data-ru="Старый город Баку (Ичеришехер)" data-sv="Bakus gamla stad (Icherisheher)">Baku Old City (Icherisheher)</h3>
+                        <p data-en="A UNESCO World Heritage site featuring medieval architecture, the Maiden Tower, and the Palace of the Shirvanshahs." data-ru="Объект Всемирного наследия ЮНЕСКО с средневековой архитектурой, Девичьей башней и Дворцом Ширваншахов." data-sv="En UNESCO-världsarv med medeltida arkitektur, Jungfrutornet och Shirvanshahs palats.">A UNESCO World Heritage site featuring medieval architecture, the Maiden Tower, and the Palace of the Shirvanshahs.</p>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Gobustan">
+                    <div class="attraction-content">
+                        <h3 data-en="Gobustan Rock Art" data-ru="Наскальные рисунки Гобустана" data-sv="Gobustans hällristningar">Gobustan Rock Art</h3>
+                        <p data-en="Ancient rock carvings and mud volcanoes dating back 40,000 years, showcasing prehistoric human life and artistic expression." data-ru="Древние наскальные рисунки и грязевые вулканы возрастом 40 000 лет, демонстрирующие доисторическую человеческую жизнь и художественное выражение." data-sv="Antika hällristningar och leror som går tillbaka 40 000 år, som visar förhistoriskt mänskligt liv och konstnärligt uttryck.">Ancient rock carvings and mud volcanoes dating back 40,000 years, showcasing prehistoric human life and artistic expression.</p>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Flame Towers">
+                    <div class="attraction-content">
+                        <h3 data-en="Flame Towers" data-ru="Пламенные башни" data-sv="Flammtornen">Flame Towers</h3>
+                        <p data-en="Baku's iconic trio of skyscrapers, illuminated at night to resemble flames, symbolizing Azerbaijan's 'Land of Fire' heritage." data-ru="Знаменитое трио небоскребов Баку, освещенных ночью в виде пламени, символизирующих наследие Азербайджана как 'Страны огня'." data-sv="Bakus ikoniska trio av skyskrapor, upplysta på natten för att likna lågor, symboliserar Azerbajdzjans 'Eldens land'-arv.">Baku's iconic trio of skyscrapers, illuminated at night to resemble flames, symbolizing Azerbaijan's 'Land of Fire' heritage.</p>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sheki">
+                    <div class="attraction-content">
+                        <h3 data-en="Sheki Historical Center" data-ru="Исторический центр Шеки" data-sv="Shekis historiska centrum">Sheki Historical Center</h3>
+                        <p data-en="A UNESCO site featuring the Khan's Palace with stunning stained glass windows and traditional Azerbaijani architecture." data-ru="Объект ЮНЕСКО с Ханским дворцом с потрясающими витражными окнами и традиционной азербайджанской архитектурой." data-sv="En UNESCO-plats med Khans palats med fantastiska glasmålningar och traditionell azerbajdzjansk arkitektur.">A UNESCO site featuring the Khan's Palace with stunning stained glass windows and traditional Azerbaijani architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Your Guide" data-ru="Свяжитесь с гидом" data-sv="Kontakta din guide">Contact Your Guide</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-en="Phone" data-ru="Телефон" data-sv="Telefon">Phone</h4>
+                            <p>+994 50 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-en="Email" data-ru="Электронная почта" data-sv="E-post">Email</h4>
+                            <p>elshan@azerbaijanguide.az</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-en="Location" data-ru="Местоположение" data-sv="Plats">Location</h4>
+                            <p data-en="Baku, Azerbaijan" data-ru="Баку, Азербайджан" data-sv="Baku, Azerbajdzjan">Baku, Azerbaijan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <h4 class="social-title" data-en="Connect on Social Media" data-ru="Связаться в соцсетях" data-sv="Kontakta via sociala medier">Connect on Social Media</h4>
+                    <div class="social-subtitle" data-en="Message us anytime on your favorite platform!" data-ru="Пишите нам в любой соцсети!" data-sv="Meddela oss när som helst på din favoritplattform!">Message us anytime on your favorite platform!</div>
+                    <div class="social-links">
+                        <a href="https://wa.me/994501234567" class="social-icon whatsapp" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://t.me/azerbaijanguide" class="social-icon telegram" target="_blank" rel="noopener" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="https://instagram.com/azerbaijanguide" class="social-icon instagram" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="Azerbaijan Guide" data-ru="Путеводитель по Азербайджану" data-sv="Azerbajdzjan Guide">Azerbaijan Guide</h3>
+                    <p data-en="Your trusted companion for exploring the beautiful country of Azerbaijan." data-ru="Ваш надежный спутник для изучения прекрасной страны Азербайджан." data-sv="Din betrodda följeslagare för att utforska det vackra landet Azerbajdzjan.">Your trusted companion for exploring the beautiful country of Azerbaijan.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ru="Быстрые ссылки" data-sv="Snabblänkar">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-ru="Главная" data-sv="Hem">Home</a></li>
+                        <li><a href="#about" data-en="About" data-ru="О нас" data-sv="Om">About</a></li>
+                        <li><a href="#guide" data-en="Guide" data-ru="Гид" data-sv="Guide">Guide</a></li>
+                        <li><a href="#attractions" data-en="Attractions" data-ru="Достопримечательности" data-sv="Sevärdheter">Attractions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-ru="Контактная информация" data-sv="Kontaktinfo">Contact Info</h4>
+                    <p>+994 50 123 45 67</p>
+                    <p>elshan@azerbaijanguide.az</p>
+                    <p data-en="Baku, Azerbaijan" data-ru="Баку, Азербайджан" data-sv="Baku, Azerbajdzjan">Baku, Azerbaijan</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Azerbaijan Guide. <span data-en="All rights reserved." data-ru="Все права защищены." data-sv="Alla rättigheter förbehållna.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
