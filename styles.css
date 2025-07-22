@@ -2057,3 +2057,439 @@ img[src] {
 .contact h2, .contact-title, .contact-section-title {
     margin-bottom: 1.2rem;
 } 
+
+/* --- MOBILE RESPONSIVENESS IMPROVEMENTS START --- */
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 10px;
+  }
+  .about-banner {
+    height: 160px !important;
+  }
+  .about-card {
+    padding: 0.7rem 0.2rem 0.5rem 0.2rem;
+    max-width: 100vw;
+  }
+  .about-feature-row-banner,
+  .about-stats-badges {
+    gap: 0.5rem;
+  }
+  .about-feature-card,
+  .stat-badge {
+    min-width: 70px;
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+    font-size: 0.95rem;
+  }
+  .about-banner-title {
+    font-size: 1.2rem;
+  }
+  .guide-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .tours-grid {
+    grid-template-columns: 1fr;
+  }
+  .tour-card {
+    min-height: 320px;
+  }
+  .attractions-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-content {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .contact-social {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    min-width: 180px;
+    max-width: 100vw;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0 30px;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .about-banner {
+    height: 120px !important;
+  }
+  .about-banner-title {
+    font-size: 1rem;
+  }
+  .about-feature-row-banner,
+  .about-stats-badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .about-feature-card,
+  .stat-badge {
+    width: 100%;
+    max-width: 98vw;
+    min-width: 0;
+  }
+  .about-card {
+    padding: 0.5rem 0.1rem 0.3rem 0.1rem;
+    max-width: 100vw;
+  }
+  .guide-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .guide-image img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .guide-info {
+    padding: 1rem 0.3rem 1rem 0.3rem;
+  }
+  .tours {
+    padding: 40px 0 20px 0;
+  }
+  .tour-card {
+    min-height: 220px;
+  }
+  .tour-image {
+    height: 120px;
+  }
+  .tour-content {
+    padding: 0.7rem 0.3rem 0.7rem 0.3rem;
+  }
+  .attractions {
+    padding: 40px 0 20px 0;
+  }
+  .attraction-card img {
+    height: 120px;
+  }
+  .attraction-content {
+    padding: 0.7rem;
+  }
+  .contact {
+    padding: 40px 0 20px 0;
+  }
+  .footer {
+    padding: 30px 0 10px;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 5px;
+  }
+  .about-banner {
+    height: 80px !important;
+  }
+  .about-banner-title {
+    font-size: 0.8rem;
+  }
+  .about-card {
+    padding: 0.2rem 0.05rem 0.1rem 0.05rem;
+    max-width: 100vw;
+  }
+  .about-feature-row-banner,
+  .about-stats-badges {
+    gap: 0.2rem;
+  }
+  .about-feature-card,
+  .stat-badge {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.2rem 0.2rem 0.2rem;
+  }
+  .guide-image img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .tour-image {
+    height: 80px;
+  }
+  .tour-card {
+    min-height: 120px;
+  }
+  .attraction-card img {
+    height: 80px;
+  }
+  .footer {
+    padding: 15px 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 0 2px;
+  }
+  .about-banner {
+    height: 50px !important;
+  }
+  .about-banner-title {
+    font-size: 0.6rem;
+  }
+  .about-card {
+    padding: 0.1rem 0.01rem 0.05rem 0.01rem;
+    max-width: 100vw;
+  }
+  .about-feature-row-banner,
+  .about-stats-badges {
+    gap: 0.1rem;
+  }
+  .about-feature-card,
+  .stat-badge {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.05rem 0.05rem 0.05rem;
+  }
+  .guide-image img {
+    width: 100%;
+    max-width: 120px;
+  }
+  .tour-image {
+    height: 50px;
+  }
+  .tour-card {
+    min-height: 60px;
+  }
+  .attraction-card img {
+    height: 50px;
+  }
+  .footer {
+    padding: 5px 0 2px;
+  }
+}
+
+/* Hamburger menu overlay for mobile nav (if JS is implemented) */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(44,62,80,0.97);
+  z-index: 2000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-nav.active {
+  display: flex;
+}
+.mobile-nav .nav-link {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1.2rem 0;
+}
+
+/* Mobile nav close button styles */
+.mobile-nav-close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0.2em 0.6em;
+  line-height: 1;
+  transition: color 0.2s, background 0.2s;
+}
+.mobile-nav-close:hover, .mobile-nav-close:focus {
+  color: #e74c3c;
+  background: rgba(255,255,255,0.08);
+  outline: none;
+}
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* --- MOBILE RESPONSIVENESS IMPROVEMENTS END --- */ 
+
+/* --- RESPONSIVE IMAGE FIXES START --- */
+
+/* General responsive image rule */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* About Banner Image */
+.about-banner-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 100vw !important;
+  max-height: 100% !important;
+}
+
+/* Guide Image */
+.guide-image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 24px;
+}
+@media (max-width: 600px) {
+  .guide-image img {
+    max-width: 180px;
+  }
+}
+
+/* Tour Card Image */
+.tour-image {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: 220px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100vw;
+  max-height: 220px;
+  border-bottom: 4px solid #e74c3c;
+}
+@media (max-width: 600px) {
+  .tour-image {
+    max-height: 100px;
+  }
+  .tour-image img {
+    max-height: 100px;
+  }
+}
+
+/* Attraction Card Image */
+.attraction-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100vw;
+  max-height: 180px;
+  border-radius: 0;
+}
+@media (max-width: 600px) {
+  .attraction-card img {
+    height: 90px;
+    max-height: 90px;
+  }
+}
+
+/* About Main Image (if used) */
+.about-main-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 4/5;
+  background: #fff;
+  margin-bottom: 1.2rem;
+  border: none;
+  box-shadow: 0 4px 16px rgba(102,126,234,0.07);
+}
+@media (max-width: 600px) {
+  .about-main-img {
+    max-width: 98vw;
+  }
+}
+
+/* Prevent image overflow in all cards */
+.tour-card img,
+.attraction-card img,
+.guide-image img,
+.about-banner-img,
+.about-main-img {
+  max-width: 100vw;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+/* --- RESPONSIVE IMAGE FIXES END --- */ 
+
+@media (max-width: 900px) {
+  .language-selector {
+    gap: 6px;
+  }
+  .lang-btn {
+    font-size: 0.95rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .hamburger {
+    margin-left: 18px;
+    transform: scale(0.85);
+  }
+}
+@media (max-width: 768px) {
+  .language-selector {
+    gap: 5px;
+  }
+  .lang-btn {
+    font-size: 0.9rem;
+    padding: 3px 7px;
+    border-radius: 4px;
+  }
+  .hamburger {
+    margin-left: 14px;
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 480px) {
+  .language-selector {
+    gap: 4px;
+  }
+  .lang-btn {
+    font-size: 0.85rem;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+  .hamburger {
+    margin-left: 10px;
+    transform: scale(0.7);
+  }
+}

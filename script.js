@@ -545,3 +545,39 @@ const mobileMenuCSS = `
 const style = document.createElement('style');
 style.textContent = mobileMenuCSS;
 document.head.appendChild(style); 
+
+// Hamburger menu toggle
+const hamburger = document.querySelector('.hamburger');
+const mobileNav = document.getElementById('mobileNav');
+const navLinks = document.querySelectorAll('.mobile-nav .nav-link');
+const closeBtn = document.querySelector('.mobile-nav-close');
+
+if (hamburger && mobileNav) {
+    hamburger.addEventListener('click', () => {
+        mobileNav.classList.toggle('active');
+    });
+
+    // Close mobile nav when a link is clicked
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileNav.classList.remove('active');
+        });
+    });
+
+    // Optional: Close mobile nav when clicking outside
+    document.addEventListener('click', (e) => {
+        if (
+            mobileNav.classList.contains('active') &&
+            !mobileNav.contains(e.target) &&
+            !hamburger.contains(e.target)
+        ) {
+            mobileNav.classList.remove('active');
+        }
+    });
+} 
+
+if (closeBtn && mobileNav) {
+    closeBtn.addEventListener('click', () => {
+        mobileNav.classList.remove('active');
+    });
+} 
